@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseMaui>true</UseMaui>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <!-- Lock file must be regenerated if dependencies change -->
+    <RestoreLockedMode>false</RestoreLockedMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Core MAUI controls framework -->
+    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.82" />
+    <!-- MAUI Community Toolkit: rich set of UI controls and helpers -->
+    <PackageReference Include="CommunityToolkit.Maui" Version="7.0.1" />
+    <!-- Logging abstractions pulled in explicitly (also a MAUI transitive dep) -->
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <!-- JSON serialization; no Windows-specific transitive deps -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,305 @@
+{
+  "updateType": "OVERRIDE",
+  "type": "DEPENDENCY_TREE",
+  "agent": "MEND_REPO_INTEGRATION",
+  "agentVersion": "WILDCARD",
+  "pluginVersion": "WILDCARD",
+  "orgToken": "PLACEHOLDER",
+  "userKey": "PLACEHOLDER",
+  "timeStamp": 0,
+  "requesterEmail": "PLACEHOLDER",
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "extraProperties": {
+    "contributionsAvailable": "false",
+    "commitUrl": "PLACEHOLDER",
+    "gitHubInstallationId": "PLACEHOLDER",
+    "scmApplicationId": "PLACEHOLDER",
+    "branchName": "main",
+    "checkRunId": "PLACEHOLDER",
+    "userOrgToken": "PLACEHOLDER",
+    "commitId": "PLACEHOLDER",
+    "scmInstallationId": "PLACEHOLDER",
+    "repository": "nuget-maui-windows",
+    "scaResults": "PLACEHOLDER"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["NuGet"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "REPO_INTEGRATION"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "PLACEHOLDER",
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Maui.Controls",
+          "version": "8.0.82",
+          "systemPath": "",
+          "optional": false,
+          "filename": "MauiWindowsProbe.csproj",
+          "dependencyType": "DIRECT",
+          "dependencyFile": "src/MauiWindowsProbe/MauiWindowsProbe.csproj",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Maui.Controls.Core",
+              "version": "8.0.82",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Maui.Controls.Core.8.0.82.nupkg",
+              "dependencyType": "TRANSITIVE",
+              "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+              "children": [
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Maui.Core",
+                  "version": "8.0.82",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "Microsoft.Maui.Core.8.0.82.nupkg",
+                  "dependencyType": "TRANSITIVE",
+                  "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                  "children": [
+                    {
+                      "groupId": "",
+                      "artifactId": "Microsoft.Maui.Essentials",
+                      "version": "8.0.82",
+                      "systemPath": "",
+                      "optional": false,
+                      "filename": "Microsoft.Maui.Essentials.8.0.82.nupkg",
+                      "dependencyType": "TRANSITIVE",
+                      "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                      "children": null
+                    },
+                    {
+                      "groupId": "",
+                      "artifactId": "Microsoft.Maui.Graphics",
+                      "version": "8.0.82",
+                      "systemPath": "",
+                      "optional": false,
+                      "filename": "Microsoft.Maui.Graphics.8.0.82.nupkg",
+                      "dependencyType": "TRANSITIVE",
+                      "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                      "children": null
+                    },
+                    {
+                      "groupId": "",
+                      "artifactId": "Microsoft.Extensions.DependencyInjection",
+                      "version": "8.0.0",
+                      "systemPath": "",
+                      "optional": false,
+                      "filename": "Microsoft.Extensions.DependencyInjection.8.0.0.nupkg",
+                      "dependencyType": "TRANSITIVE",
+                      "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                      "children": [
+                        {
+                          "groupId": "",
+                          "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                          "version": "8.0.0",
+                          "systemPath": "",
+                          "optional": false,
+                          "filename": "Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0.nupkg",
+                          "dependencyType": "TRANSITIVE",
+                          "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                          "children": null
+                        }
+                      ]
+                    },
+                    {
+                      "groupId": "",
+                      "artifactId": "Microsoft.Extensions.Logging.Abstractions",
+                      "version": "8.0.0",
+                      "systemPath": "",
+                      "optional": false,
+                      "filename": "Microsoft.Extensions.Logging.Abstractions.8.0.0.nupkg",
+                      "dependencyType": "TRANSITIVE",
+                      "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                      "children": [
+                        {
+                          "groupId": "",
+                          "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                          "version": "8.0.0",
+                          "systemPath": "",
+                          "optional": false,
+                          "filename": "Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0.nupkg",
+                          "dependencyType": "TRANSITIVE",
+                          "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                          "children": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Maui.Essentials",
+                  "version": "8.0.82",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "Microsoft.Maui.Essentials.8.0.82.nupkg",
+                  "dependencyType": "TRANSITIVE",
+                  "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                  "children": null
+                },
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Maui.Graphics",
+                  "version": "8.0.82",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "Microsoft.Maui.Graphics.8.0.82.nupkg",
+                  "dependencyType": "TRANSITIVE",
+                  "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                  "children": null
+                }
+              ]
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Maui.Controls.Xaml",
+              "version": "8.0.82",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Maui.Controls.Xaml.8.0.82.nupkg",
+              "dependencyType": "TRANSITIVE",
+              "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+              "children": [
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Maui.Controls.Core",
+                  "version": "8.0.82",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "Microsoft.Maui.Controls.Core.8.0.82.nupkg",
+                  "dependencyType": "TRANSITIVE",
+                  "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                  "children": null
+                }
+              ]
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Maui.Core",
+              "version": "8.0.82",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Maui.Core.8.0.82.nupkg",
+              "dependencyType": "TRANSITIVE",
+              "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+              "children": null
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "CommunityToolkit.Maui",
+          "version": "7.0.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "MauiWindowsProbe.csproj",
+          "dependencyType": "DIRECT",
+          "dependencyFile": "src/MauiWindowsProbe/MauiWindowsProbe.csproj",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "CommunityToolkit.Maui.Core",
+              "version": "7.0.1",
+              "systemPath": "",
+              "optional": false,
+              "filename": "CommunityToolkit.Maui.Core.7.0.1.nupkg",
+              "dependencyType": "TRANSITIVE",
+              "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+              "children": [
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Maui.Controls",
+                  "version": "8.0.82",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "Microsoft.Maui.Controls.8.0.82.nupkg",
+                  "dependencyType": "TRANSITIVE",
+                  "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                  "children": null
+                },
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Maui.Core",
+                  "version": "8.0.82",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "Microsoft.Maui.Core.8.0.82.nupkg",
+                  "dependencyType": "TRANSITIVE",
+                  "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+                  "children": null
+                }
+              ]
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Maui.Controls",
+              "version": "8.0.82",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Maui.Controls.8.0.82.nupkg",
+              "dependencyType": "TRANSITIVE",
+              "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+              "children": null
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.Logging",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "MauiWindowsProbe.csproj",
+          "dependencyType": "DIRECT",
+          "dependencyFile": "src/MauiWindowsProbe/MauiWindowsProbe.csproj",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0.nupkg",
+              "dependencyType": "TRANSITIVE",
+              "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+              "children": null
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.Logging.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Extensions.Logging.Abstractions.8.0.0.nupkg",
+              "dependencyType": "TRANSITIVE",
+              "dependencyFile": "src/MauiWindowsProbe/packages.lock.json",
+              "children": null
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "systemPath": "",
+          "optional": false,
+          "filename": "MauiWindowsProbe.csproj",
+          "dependencyType": "DIRECT",
+          "dependencyFile": "src/MauiWindowsProbe/MauiWindowsProbe.csproj",
+          "children": null
+        }
+      ]
+    }
+  ]
+}
